@@ -34051,25 +34051,20 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
-.u-header {
-  background-image: none;
-}
-
 .u-header .u-sheet-1 {
-  min-height: 112px;
+  min-height: 167px;
 }
 
 .u-header .u-image-1 {
-  margin: 24px auto 0 0;
-}
-
-.u-header .u-logo-image-1 {
-  max-width: 64px;
-  max-height: 64px;
+  width: 98px;
+  height: 98px;
+  background-image: url("images/e35e680e9b3aab9b2b114197af6d610d1.png");
+  background-position: 50% 50%;
+  margin: 15px auto 0;
 }
 
 .u-header .u-menu-1 {
-  margin: -50px 42px 38px auto;
+  margin: 0 334px 18px auto;
 }
 
 .u-header .u-nav-1 {
@@ -34082,21 +34077,30 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    width: 64px;
-    height: 32px;
+    width: 86px;
+    height: 86px;
+    margin-top: -5px;
   }
 
   .u-header .u-menu-1 {
-    width: auto;
+    margin-right: 334px;
   }
 }
-
+@media (max-width: 991px) {
+  .u-header .u-menu-1 {
+    margin-right: 256px;
+  }
+}
 @media (max-width: 767px) {
-  .u-header .u-image-1 {
-    width: auto;
+  .u-header .u-menu-1 {
+    margin-right: 192px;
   }
 }
-
+@media (max-width: 575px) {
+  .u-header .u-menu-1 {
+    margin-right: 121px;
+  }
+}
 .u-footer {
   background-image: none;
 }
