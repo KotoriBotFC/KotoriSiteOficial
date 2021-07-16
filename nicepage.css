@@ -34052,7 +34052,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
 .u-header .u-sheet-1 {
-  min-height: 167px;
+  min-height: 164px;
 }
 
 .u-header .u-image-1 {
@@ -34064,7 +34064,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 0 334px 18px auto;
+  margin: 0 236px 15px auto;
 }
 
 .u-header .u-nav-1 {
@@ -34079,26 +34079,21 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     width: 86px;
     height: 86px;
-    margin-top: -5px;
   }
 
   .u-header .u-menu-1 {
-    margin-right: 334px;
+    margin-right: 236px;
   }
 }
-@media (max-width: 991px) {
-  .u-header .u-menu-1 {
-    margin-right: 256px;
-  }
-}
+
 @media (max-width: 767px) {
   .u-header .u-menu-1 {
-    margin-right: 192px;
+    margin-right: 177px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-menu-1 {
-    margin-right: 121px;
+    margin-right: 111px;
   }
 }
 .u-footer {
