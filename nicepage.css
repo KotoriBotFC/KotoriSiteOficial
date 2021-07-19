@@ -34450,7 +34450,7 @@ a.u-link.u-text-hover-grey-90:hover {
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: 1px;
-  margin: -42px auto 0;
+  margin: -42px auto 0 521px;
 }
 
 .u-header .u-btn-5 {
@@ -34463,14 +34463,8 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -42px 297px 32px auto;
 }
 @media (max-width: 1199px) {
-  .u-header .u-menu-1 {
-    margin-left: -415px;
-  }
-
   .u-header .u-image-1 {
-    width: 86px;
-    height: 86px;
-    margin-left: -67px;
+    width: 98px;
   }
 
   .u-header .u-btn-1 {
@@ -34490,6 +34484,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-btn-4 {
     margin-top: -42px;
+    margin-left: 321px;
   }
 
   .u-header .u-btn-5 {
@@ -34498,12 +34493,24 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-btn-1 {
+    margin-top: 20px;
+    margin-left: -67px;
+  }
+
   .u-header .u-btn-2 {
-    margin-left: 0;
+    margin-top: 20px;
+    margin-left: -67px;
   }
 
   .u-header .u-btn-3 {
-    margin-left: 0;
+    margin-top: 20px;
+    margin-left: -67px;
+  }
+
+  .u-header .u-btn-4 {
+    margin-top: 20px;
+    margin-left: -67px;
   }
 
   .u-header .u-btn-5 {
